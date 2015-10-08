@@ -1,0 +1,155 @@
+*{margin: 0;
+padding: 0;}
+html { 
+
+
+} 
+
+body { 
+min-width: 1200px;
+
+} 
+
+
+/*******************************************************************
+LAYOUT
+*******************************************************************/
+
+.right{float: right;}
+.left{float: left;}
+.text-center{text-align: center;} 
+a{text-decoration: none;
+}
+header .page-nav_list a{
+	color: red;
+}
+footer .page-nav_list a{
+	color: green;
+}
+.container { 
+width: 960px;
+margin: 0 auto;
+border: 1px solid lightgreen;
+height: 100%;
+
+} 
+header{height: 75px;
+background-color:yellow;}
+.page-nav_list li{
+	display: inline-block;
+	margin: 20px 10px;
+}
+
+.logo { 
+margin: 10px;
+
+} 
+.logo span{
+margin: 10px 10px;
+}
+
+
+
+.promo { 
+height: 600px;
+background-image: url(../img/promo-bg.jpg);
+-webkit-background-size:cover;
+background-size:cover;
+background-repeat: no-repeat;
+} 
+
+
+.consult { 
+
+
+} 
+
+.advantages{
+	height: 200px;
+	background-color:red;
+
+
+}
+
+.adv-item {
+	width:165px;
+	display: inline-block;
+	position: relative;
+	background-color: #fff;
+	margin-right: 90px;
+}
+.adv-item:last-child{margin-right: 0;}
+.adv-text_one:before{
+content:"";position: absolute;width: 
+50px;height: 50px;background-image: url(http://placehold.it/50x50);left: -60px; top: 20px;
+}
+.adv-text_two:before{
+content:"";position: absolute;width: 
+50px;height: 50px;background-image: url(http://placehold.it/50x50);left: -60px; top: 20px;
+}
+.adv-text_three:before{
+content:"";position: absolute;width: 
+50px;height: 50px;background-image: url(http://placehold.it/50x50);left: -60px; top: 20px;
+}
+.adv-text_fore:before{
+content:"";position: absolute;width: 
+50px;height: 50px;background-image: url(http://placehold.it/50x50);left: -60px; top: 20px;
+}
+
+.adv-text{
+position: relative;
+left: 50px;
+width:165px;
+margin-top: 20px;
+margin-left: 50px;
+}
+.technics{
+	height: 400px;
+}
+.technics-list_item{
+	list-style-type:none;
+}
+.feedback{
+	height: 440px;
+	background-color: #202e3b;
+
+}
+.back-call_item { 
+
+
+} 
+
+.all-tech_container { 
+
+
+} 
+
+.offers { 
+
+
+} 
+
+.numbers_container { 
+
+
+} 
+
+.row { 
+
+
+} 
+
+.reviews { 
+
+
+} 
+
+.rewiew_item { 
+
+
+} 
+
+.rewiew_item_img { 
+
+
+} 
