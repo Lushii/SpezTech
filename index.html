@@ -2,10 +2,11 @@
 <html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Спецтех24</title>
+	<title>Спецтех24 - Главная</title>
 <link rel="stylesheet" href="css/style.css"></head>
 
 <body>
+<span class="last-update">Последнее обновление</span>
 <!-- <HEADER> -->
 <header class="page-header">
 <div class="container">
@@ -21,11 +22,21 @@
 <!-- <MENU> -->
  <nav class="page-nav right"> 
   <ul class="page-nav_list">
-    <li class="page-nav_item"><a href="index.html" class="page-nav_item_a page-nav_item_a_current">О компании</a></li>
-    <li class="page-nav_item"><a href="catalog.html" class="page-nav_item_a">Каталог</a></li>
-    <li class="page-nav_item"><a href="portfolio.html" class="page-nav_item_a">Портфолио</a></li>
-    <li class="page-nav_item"><a href="contacts.html" class="page-nav_item_a">Контакты</a></li>
-    <li class="page-nav_item"><a href="#" class="page-nav_item_a page-nav_item_call">Заказать звонок</a></li>
+    <li class="page-nav_item">
+    <a href="index.html" class="page-nav_item_a page-nav_item_a_current">О компании</a>
+    </li>
+    <li class="page-nav_item">
+    <a href="catalog.html" class="page-nav_item_a">Каталог</a>
+    </li>
+    <li class="page-nav_item">
+    <a href="portfolio.html" class="page-nav_item_a">Портфолио</a>
+    </li>
+    <li class="page-nav_item">
+    <a href="contacts.html" class="page-nav_item_a">Контакты</a>
+    </li>
+    <li class="page-nav_item">
+    <a href="#" class="page-nav_item_a page-nav_item_call">Заказать звонок</a>
+    </li>
   </ul>
  </nav>
 </div>
@@ -41,10 +52,10 @@
    </span>
      <h1 class="promo-text">
      Спецтех24 - это сеть пунктов аренды спецтехники Cat, 
-     оборудования и специализированных инструментов для выполнения
-     большинства видов работ.
+     оборудования<br/> и специализированных инструментов для выполнения
+     большинства <br/> видов работ.
      </h1>
-    <a href="catalog.html" class="button">Перейти в каталог</a>
+    <a href="catalog.html" class="button button-gocatalog">Перейти в каталог</a>
    </div>
   
 </section>
@@ -52,24 +63,24 @@
 <!-- Полосатая полоса №2 -->
 <!-- <BACK CALL FORM> -->
   
-<section class="consult">
-<div class="container">
+<section class="consult wrapper">
+<div class="container back-call_container">
  <h2 class="consult-title">
    Закажите бесплатную консультацию по подбору подходящей техники
  </h2>
   <form action="#" class="row">
-  
-   <input type="text" placeholder="Как вас зовут?" class="consult_input">
-   
-   
-   <input type="text" placeholder="Номер для связи" class="consult_input">
-   
-   
-   <input type="date" placeholder="Выберите дату" class="consult_input">
-   
-   
-   <input type="submit" placeholder="Заказать консультацию">
-   
+  <div class="col-3 back-call_item">
+   <input type="text" value="Как вас зовут?" class="consult_input">
+   </div>
+  <div class="col-3 back-call_item">
+   <input type="text" value="Номер для связи" class="consult_input">
+   </div>
+  <div class="col-3 back-call_item">
+   <input type="date" value="Выберите дату" class="consult_input">
+   </div>
+  <div class="col-3 back-call_item">
+   <input type="submit" value="Заказать консультацию" class="consult_input consult_button">
+   </div>
   </form>
   </div>
 </section>
@@ -77,30 +88,45 @@
   <!-- ADVANTAGES -->
 <section class="advantages">
 <div class="container">
-  
-  <div class="adv-item one">
-    <p class="adv-text adv-text_one right">Техника проходит обязательное обслуживание перед каждым выездом</p></div>
+  <div class="row">
+    <div class="adv-item">
+       <div class="adv-item_1">
+       <img src="img/Rectangle 1 copy.svg" alt="" class="left tools">
+        <p class="adv_text adv_text">Техника проходит обязательное обслуживание перед каждым выездом
+        </p>
+       
+       </div>
+    </div>
+    <div class="adv-item">
+      <div class="adv-item_2">
+       <img src="img/Ellipse 1.svg" alt="" class="left signal">
+        <p class="adv_text adv-text">Все машины оборудованы спец сигналами для предупреждения аварий</p>
 
-
-   <div class="adv-item">
-    <p class="adv_text adv-text_two">Все машины оборудованы спец сигналами для предупреждения аварий</p></div>
-
-   <div class="adv-item">
-    <p class="adv_text adv-text_three">Привезем модные строительные ограждения к каждому заказу от 20 000</p></div>
-
-
-   <div class="adv-item">
-    <p class="adv_text adv-text_fore">С техникой приедут квалифицированные операторы и водители</p></div>
- 
+       </div>
+    </div>
+    <div class="adv-item">
+       <div class="adv-item_3">
+       <img src="img/Rounded Rectangle 1 copy.svg" alt="" class="left bord">
+        <p class="adv_text adv-text">Привезем модные строительные ограждения к каждому заказу от 20 000</p>
+       </div>
+    </div>
+    <div class="adv-item">
+     <div class="adv-item_4">
+     <img src="img/Rounded Rectangle 1 copy 2.svg" alt="" class="left workers">
+     <p class="adv_text adv-text">С техникой приедут квалифицированные операторы и водители</p>
+     </div>
+    </div>
+   </div>
  </div>
 </section>
   
 <!-- Вся техника и Спецпредложение -->
 <!-- <ALL TECH MENU> -->
-
-  <section class="technics">
-   <div class="container"><h2 class="technics-title">Вся техника</h2>
-     <ul class="technics-list left">
+ <section class="technics">
+   <div class="container">
+    <div class="column-technics left">
+      <h2 class="technics-title">Вся техника</h2>
+      <ul class="technics-list left">
   	  <li class="technics-list_item"><a href="#">Гусеничные экскаваторы</a></li>
   	  <li class="technics-list_item"><a href="#">Колесные экскаваторы</a></li>
   	  <li class="technics-list_item"><a href="#">Мини-экскаваторы</a></li>
@@ -108,54 +134,54 @@
   	  <li class="technics-list_item"><a href="#">Фронтальные погрузчики</a></li>
   	  <li class="technics-list_item"><a href="#">Навесное оборудование</a></li>
   	  <li class="technics-list_item"><a href="#">Дизельгенераторы</a></li>
-     </ul>
-   
+      </ul>
+    </div>
 
    <!-- <SPECIAL OFFER> -->
 
    
-   <div class="offers left">
-   <h2 class="offer_title">Спецпредложение</h2>
+      <div class="column-offers left">
+      <h2 class="offer_title">Спецпредложение</h2>
       <table class="offers">
-      <thead>
+       <thead>
        <tr>
-       <th>Позиция для аренды</th>
-       <th>За смену</th>
-       <th>За неделю</th>
-       <th>За месяц</th>
+       <td>Позиция для аренды</td>
+       <td>За смену</td>
+       <td>За неделю</td>
+       <td>За месяц</td>
        </tr>
        </thead>
        <tbody>
        <tr>
-       <th>Мини-экскаватор САТ</th>
-       <th>5 000</th>
-       <th>25 000</th>
-       <th>60 000</th>
+       <td>Мини-экскаватор САТ</td>
+       <td>5 000</td>
+       <td>25 000</td>
+       <td>60 000</td>
        </tr>
        <tr>
-       <th>Экскаватор VOLVO</th>
-       <th>3 000</th>
-       <th>15 000</th>
-       <th>40 000</th>
+       <td>Экскаватор VOLVO</td>
+       <td>3 000</td>
+       <td>15 000</td>
+       <td>40 000</td>
        </tr>
        <tr>
-       <th>Грузовик VOLVO</th>
-       <th>5 000</th>
-       <th>25 000</th>
-       <th>60 000</th>
+       <td>Грузовик VOLVO</td>
+       <td>5 000</td>
+       <td>25 000</td>
+       <td>60 000</td>
        </tr>
        <tr>
-       <th>Мини-экскаватор САТ</th>
-       <th>3 000</th>
-       <th>15 000</th>
-       <th>40 000</th>
+       <td>Мини-экскаватор САТ</td>
+       <td>3 000</td>
+       <td>15 000</td>
+       <td>40 000</td>
        </tr>
        </tbody>
       </table>
-   </div>
-   </div>
+    </div>
+  </div>
 
-   </section>
+</section>
   
   
 <!-- Полосатая полоса №3 -->
@@ -163,61 +189,61 @@
   
 <section class="feedback">
   <div class="container">
-    <h2>
-    Спецтех 
-    в цифрах
-    </h2>
-    <div class="numbers-list left">
-		 <div class="numbers-item">
-      <p class="numbers-item_title">16</p> 
-      <p class="numbers-item_label">лет работы</p>
-     </div>
-     <div class="numbers-item">
-      <p class="number-item_title">751</p>
-      <p class="numbers-item_label">объектов</p>
-     </div>
-     <div class="numbers-item">
-      <p class="number-item_title">108</p>
-      <p class="numbers-item_label">единиц техники</p>
-     </div>
-     <div class="numbers-item">
-      <p class="number-item_title">500</p>
-      <p class="numbers-item_label">довольных клиентов</p>
-		 </div>
-   </div>
+     <div class="column-numbers left">
+        <h2 class="numbers-title"><b>Спецтех</b> 
+           в цифрах</h2>
+    
+		    <p class="numbers-item">
+          <span class="number-item_title">16
+          </span> 
+          <span class="numbers-item_label">Лет работы</span>
+        </p>
+        <p class="numbers-item">
+          <span class="number-item_title">751</span>
+          <span class="numbers-item_label">Объектов</span></p>
+        </p>
+        <p class="numbers-item">
+          <span class="number-item_title">108</span>
+          <span class="numbers-item_label">Единиц техники</span>
+        </p>
+        <p class="numbers-item">
+          <span class="number-item_title">500+</span>
+          <span class="numbers-item_label">Довольных клиентов</span>
+		    </p>
+    </div>
 
 <!-- <REVIWS> -->
-   <div class="reviews left">
-    <h2 class="rewiew_title">Нас рекомендуют клиенты</h2>
-    <div class="rewiew_item"> 
-      <div class="rewiew_item_img">
-        <img src="img/f1.jpg" height="114" width="114" alt="rewiew img" />
-       </div>
-        <blockquote class="rwiew_item_text">
-           <!-- <p>Спецтех24 - это надежные партнеры нашей компании, 
+     <div class="column-reviews left">
+          <h2 class="rewiew_title">Нас рекомендуют клиенты</h2>
+          <div class="rewiew_item"> 
+            <div class="rewiew_item_img">
+             <img src="img/f1.jpg" height="114" width="114" alt="rewiew img" />
+            </div>
+             <blockquote class="rewiew_item_text">
+           <p>Спецтех24 - это надежные партнеры нашей компании, 
            которые всегда выполняют работу быстро и еще у них отличное чувство юмора.
            Благодарим и рекомендуем.
-           </p> -->
-          <cite class="rewiew_item_text">
+           </p>
+              <cite class="rewiew_item_cite">
            Оля Вольт, Реал-Строй
-          </cite>
-        </blockquote>
-       </div>
-     <div class="rewiew_item"> 
-      <div class="rewiew_item_img">
-       <img src="img/f2.jpg" height="114" width="114" alt="rewiew img"/>
-       </div>
-        <blockquote class="rwiew_item_text">
-      <!--    <p>Все виды работ, предусмотренные договором, компания выполнила
+              </cite>
+            </blockquote>
+          </div>
+          <div class="rewiew_item"> 
+            <div class="rewiew_item_img">
+              <img src="img/f2.jpg" height="114" width="114" alt="rewiew img"/>
+            </div>
+            <blockquote class="rewiew_item_text">
+         <p>Все виды работ, предусмотренные договором, компания выполнила
      на высоком профессиональном уровне, качественно, в срок, в соответствии 
      с требованиями ООО "ТНН" рекомендует
-         </p> -->
-         <cite>
+         </p>
+            <cite class="rewiew_item_cite">
           Григорий Безымянных, THH 
-          </cite>
-          </blockquote>
-       </div>
-      
+            </cite>
+            </blockquote>
+          </div>
+      </div> 
   </div>
 </section>
 
@@ -234,7 +260,7 @@
 <!-- <LOGO> -->
  
  <a href="" class="logo left">
-  <img src="img/truck_icon.svg" alt="SpezTech24" class="page-footer_logo-img"/>
+  <img src="img/truck_icon_white.svg" alt="SpezTech24" class="page-footer_logo-img"/>
   <span class="page-footer_logo-text">
   <b>Спецтех</b>
   24
