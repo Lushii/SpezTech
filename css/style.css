@@ -566,26 +566,48 @@ color: #f1b132;
 
 
 }
+
 /*CATALOG SETTINGS
 */
-section .rent
-div .rent-title
-h1 .catalog-title
-p .catalog-text
-
-
-/*макет карточки
+.row {
+	overflow: hidden;
+}
+.somit{
+	background-color: #eee;
+}
+.column-cat{
+	float: left;
+	margin: 1%;
+}
+.third {width: 32%;}
+.column-cat:first-child{margin-left: 0;}
+.column-cat:last-child {margin-right: 0;}
+.column-cat.third:nth-child(3n){margin-right: 0;}
+.column-cat.third:nth-child(3n+1) {margin-right: 0;}
+/*buttons
 */
-.product-cart__title{text-decoration: none;color: #f44;text-transform: uppercase;}
-.product-cart{width: 200px;
-height: 300px;background-color: grey;}
-.center{text-align: center;}
-*{margin: 0;
-padding: 0;}
 
-.product-cart{float: left; margin: 10px;}
-.btn{text-decoration: none; color: #000;margin: 40px 10px 0px;background-color: #fff;}
-.btn-y{background-color: yellow;}
+a .button {text-decoration: none;
+ display: inline-block;
+ background-color: #777;
+ color: #fff;
+ padding: 10px 15px;
+}
+
+/*<!-- subheader>
+*/
+.breadcrumbs {padding-left: 0;}
+.breadcrumbs li{display: inline-block;}
+
+/*main
+*/
+
+
+
+
+
+
+
 
 /*CONTACTS SETTINGS*/
 
