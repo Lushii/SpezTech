@@ -615,3 +615,19 @@ a .button {text-decoration: none;
 
 /*PORTFOLIO SETTINGS
 */
+
+/*advantages*/
+.quarter { 
+float:left; 
+width:25%; 
+display: inline-block; 
+} 
+
+.quarter p{ 
+margin-top: 0; 
+margin-left: 50px; 
+} 
+
+.quarter img{ 
+float: left; 
+}
