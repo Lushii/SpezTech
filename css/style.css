@@ -575,26 +575,9 @@ color: #f1b132;
 .sumit{
 	background-color: #eee;
 }
-.product-card{
-	float: left;
-	margin: 1%;
-}
-.third {width: 32%;}
-.product-card:first-child{margin-left: 0;}
-.product-card:last-child {margin-right: 0;}
-.product-card.third:nth-child(3n){margin-right: 0;}
-.product-card.third:nth-child(3n+1) {margin-right: 0;}
-
-/*buttons
-*/
 
 
-a.button{text-decoration: none;
- display: inline-block;
- background-color: #777;
- color: #fff;
- padding: 10px 15px;
-}
+
 
 /*<!-- subheader>
 */
@@ -689,28 +672,75 @@ background-repeat: repeat-x;}
 */
 .column-sub{
 width: 320px;
-	
 }
-
-/*cards*/
 .column-cards{
 width: 620px;
 }
-
-
-.column-cat.third div{
+.column-cards.third div{
 overflow: hidden;
 }
 
+.all-technic_title{
+color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: arial;
+	text-align: left;
+}
 
+/*all-technics_cards*/
 
-.cards{
+.all-technics_cards{
 	position: relative;
 -webkit-background-size:cover;
 background-size:cover;
 background-repeat: no-repeat;
 background-color: #f3f3f3;
 }
+
+/*product-cards
+*/
+
+.product-card{
+	float: left;
+	margin: 5px;
+	background-color: #fff;
+	width: 299px;
+	height: 399px;
+}
+.product-card_title{
+	color: #000;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: arial;
+	text-align: left;
+}
+.price {
+color: #000; 
+font-size: 20px;
+font-family: arial;
+font-weight: bold;
+text-align: center;
+margin-top: 50px;
+}
+
+/*buttons
+*/
+a.button{text-decoration: none;
+ display: inline-block;
+ background-color: #f3c331;
+ color: #fff;
+ font-size: 15px;
+ font-weight: normal;
+ padding: 10px 15px;
+ margin-top: 
+}
+
+a.button.button-dark{
+background-color: #777;
+}
+
+
 
 /*special-offers
 */
@@ -725,9 +755,21 @@ background-size: cover;
 
 
 .special-off_title{
-
-height: 19px;
+color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	text-align: left;
+	height: 20px;
 }
+
+
+
+/*.third {width: 32%;}
+.product-card:first-child{margin-left: 0;}
+.product-card:last-child {margin-right: 0;}
+.product-card.third:nth-child(3n){margin-right: 0;}
+.product-card.third:nth-child(3n+1) {margin-right: 0;}*/
 
 
 /*CONTACTS SETTINGS*/
