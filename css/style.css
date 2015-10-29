@@ -667,29 +667,32 @@ background-repeat: repeat-x;}
 
 /*main
 */
+.all-technics_cards{
+	height: 960px;
 
+}
 /*all_technics
 */
 .column-sub{
 width: 320px;
 }
 .column-cards{
-width: 620px;
+width: 75%;
 }
 .column-cards.third div{
 overflow: hidden;
+
 }
 
-.all-technic_title{
-color: #000;
-	font-size: 15px;
-	font-weight: bold;
-	font-family: arial;
-	text-align: left;
+/*all-technics list
+*/
+.technics-list_item a{
+	color: #000;
+	text-decoration: underline;	
+
 }
 
 /*all-technics_cards*/
-
 .all-technics_cards{
 	position: relative;
 -webkit-background-size:cover;
@@ -703,25 +706,33 @@ background-color: #f3f3f3;
 
 .product-card{
 	float: left;
-	margin: 5px;
+	margin: 10px;
 	background-color: #fff;
-	width: 299px;
-	height: 399px;
+	width: 250px;
+	height: 350px;
+	padding: 20px ;
 }
 .product-card_title{
 	color: #000;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: bold;
 	font-family: arial;
 	text-align: left;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 30px;
 }
 .price {
 color: #000; 
 font-size: 20px;
 font-family: arial;
 font-weight: bold;
-text-align: center;
-margin-top: 50px;
+text-align: left;
+margin-top: 30px;
+margin-right: 20px;
+margin-left: 20px;
+margin-bottom: 25px;
 }
 
 /*buttons
@@ -761,16 +772,9 @@ color: #fff;
 	font-family: arial;
 	text-align: left;
 	height: 20px;
+margin-top: 40px;
+margin-bottom: 30px;
 }
-
-
-
-/*.third {width: 32%;}
-.product-card:first-child{margin-left: 0;}
-.product-card:last-child {margin-right: 0;}
-.product-card.third:nth-child(3n){margin-right: 0;}
-.product-card.third:nth-child(3n+1) {margin-right: 0;}*/
-
 
 /*CONTACTS SETTINGS*/
 /*submenu
