@@ -691,6 +691,22 @@ overflow: hidden;
 	text-decoration: underline;	
 
 }
+.download-catalog{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	background-color: #354b60;
+	border-radius: 0;
+	display: inline-block;
+	padding: 4px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+.technics-list_item-hover a{
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
 
 /*all-technics_cards*/
 .all-technics_cards{
