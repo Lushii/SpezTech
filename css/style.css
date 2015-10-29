@@ -815,6 +815,13 @@ background-size: 35px 14px;
 background-repeat: repeat-x;}
 }
 
+.column-crew{
+	display: inline-block;
+	float: left;
+}
+
+
+
 
 
 /*PORTFOLIO SETTINGS
