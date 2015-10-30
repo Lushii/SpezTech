@@ -814,11 +814,113 @@ linear-gradient(135deg, #ffcd34 30%, #000 35%, #000 65%, #ffcd34 65%);
 background-size: 35px 14px;
 background-repeat: repeat-x;}
 }
-
-.column-crew{
-	display: inline-block;
-	float: left;
+.need-cons_title{
+color: #ffcd34;
+font-size: 25px;
+font-weight: normal;
+font-family: arial;
+margin-top: 38px;
+margin-right: 15px;
 }
+.need-cons_a{
+color: #fff;
+font-size: 15px;
+margin-top: 38px;
+font-family: arial;
+}
+.map-and-form {
+min-height: 486px;
+background-color: #f3f3f3;
+}
+
+/*map*/
+.column-map{
+width: 619px;
+margin: 40px 10px 52px 10px; 
+}
+/*form
+*/
+.column-form {
+width: 299px;
+float: left;		
+display: inline-block;
+margin: 40px 10px 52px 10px;
+}
+.form-phone{
+margin: 10px;
+}
+.phone-number{
+font-size: 20px;
+font-weight: bold;
+margin: 10px;
+}
+.form-email{
+margin: 10px;
+}
+.email-adress{
+font-size: 20px;
+font-weight: bold;
+margin: 10px;
+}
+.form-txt{
+font-size: 11px;
+	font-weight: normal;
+	font-family: arial;
+	text-align: left;
+	margin: 5px;
+	opacity: 0,5;
+}
+.action{
+	width: 297px;
+}
+.input{
+	margin: 5px;
+}
+.input-button{
+	background-color: #354b60;
+	color: #fff;
+	display: inline-block;
+	padding: 15px;
+	margin: 10px;
+}
+/*feedback
+*/
+.crew{
+	min-height: 424px;
+
+}
+.crew-title h2{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: arial;
+	margin-top: 33px;
+	color: #202e3b;
+
+}
+.crew-txt{
+	font-size: 11px;
+	font-weight: normal;
+	font-family: arial;
+	font-style: italic;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.crew-cite{
+
+font-size: 15px;
+	font-weight: normal;
+	font-family: arial;
+	text-align: center;
+	margin-top: 25px;	
+}
+.column-crew{
+	width: 190px;	
+	float: left;
+	margin: 20px;
+	padding-top: 83px;
+}
+
 
 
 
