@@ -30,7 +30,7 @@ display: block;
 .container { 
 width: 960px;
 margin: 0 auto;
-border: 1px solid lightgreen;
+/*border: 1px solid lightgreen;*/
 height: 100%;
 
 } 
@@ -801,7 +801,7 @@ background-repeat: repeat-x;}
 width: 320px;
 }
 .column-cards{
-	border: solid 2px lightgreen;
+	/*border: solid 2px lightgreen;*/
 width: 70%;
 margin-left: 40px;
 
@@ -1075,7 +1075,7 @@ linear-gradient(135deg, #ffcd34 30%, #000 35%, #000 65%, #ffcd34 65%);
 background-size: 35px 14px;
 background-repeat: repeat-x;}
 }
-.consultation-title h2{
+.consultation-title {
 color: #ffcd34;
 font-size: 25px;
 font-weight: normal;
@@ -1290,7 +1290,7 @@ min-height: 512px;
 }
 .portfolio_item.portfolio_item-1{
 width: 100%;
-	height: 511px;
+	height: 500px;
 position: relative;
 background-image: url(../img/dom_1.png);
 -webkit-background-size:cover;
@@ -1301,7 +1301,7 @@ margin-top:10px;
 
 .portfolio_item.portfolio_item-2{
 width: 100%;
-	height: 511px;
+	height: 500px;
 position: relative;
 background-image: url(../img/dom_2.png);
 -webkit-background-size:cover;
@@ -1312,7 +1312,7 @@ margin-top:10px;
 
 .portfolio_item.portfolio_item-3{
 width: 100%;
-	height: 511px;
+	height: 500px;
 position: relative;
 background-image: url(../img/dom_3.png);
 -webkit-background-size:cover;
@@ -1329,14 +1329,14 @@ margin-top:10px;
 	text-align: left;
 	width: 322px;
 	height: 245px;
-	margin-top: 101px;
+	margin-top: 10px;
 	margin-right: 777px;
-	padding: 28px 28px 0px 26px;
+	padding: 26px 26px 0px 26px;
 
 }
 .portfolio-cart_title{
 color: #202e3b;
-	font-size: 20px;
+	font-size: 16px;
 	font-family: arial;
 	font-weight: bold;	
 }
@@ -1352,14 +1352,13 @@ color: #202e3b;
 
 .portfolio-cart_a{
 	text-decoration: none;
-	background-size: 40px 125px 40px 125px;
 	background-color: #ffcd34; 
 	color: #202e3b;
 	font-size: 15px;
 	font-family: arial;
 	font-weight: bold;
 	
-	padding: 15px 15px 15px 15px;
+	padding: 10px 30px 10px 10px;
 	margin-top: 30px;
 	
 
