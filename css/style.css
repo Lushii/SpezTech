@@ -376,39 +376,61 @@ margin-top: 14px;
 		background-color: #fff;
 }
 .adv-item div{
-	width: 210px;
+	width: 230px;
 	display: inline-block;
 	background-color: #fff;
 	margin-right: 0px;
-	margin-left: 30px;
+	margin-left: 0px;
 	margin-top: 30px;
     position: relative;
 	float: left;
 	text-align: left;
+	
 }
  
 
 .adv_text {
 width: 200px;
 margin-right: 0px;
-margin-left: 10px;
+margin-left: 30px;
 font-size: 12px;
 font-weight: 100;
 font-family: arial;
-}
+padding-top: 10px;
+padding-bottom: 10px;
 
+}
+.adv-item_2{
+	padding-right: 20px;
+
+}
+.adv-item_3{
+padding-right: 12px;
+}
+.adv-item_4{
+margin-left: 0;
+}
 .tools{
-	padding: 10px;	
+	padding-top: 10px;	
+	padding-right: 15px;
 }
 .signal{
 	padding: 10px;
+	padding-right: 15px;
 }
 .bord{
 	padding: 10px;
+	padding-right: 15px;
 }
 .workers{
 	padding: 10px;
+	padding-right: 15px;
+	margin-left: 0;
+	
 }
+
+.adv-item:first-child{margin-left: 0;}
+.adv-item:last-child{margin-right: 0;}
 
 /*<!-- Вся техника и Спецпредложение -->	
 <!-- <ALL TECH MENU> -->*/
@@ -439,7 +461,7 @@ font-family: arial;
 
 }
 .technics-list {
-text-decoration: underline;
+text-decoration: none;
 padding-top: 0;
 padding-left: 0;  
 padding-bottom: 50px;
@@ -451,9 +473,17 @@ font-family: arial;
 line-height: 35px;
 
 }
-.technics-list_item {
+/*.technics-list_item {
 color: #000;
+}*/
+.technics-list_item{
+text-decoration: underline;	
 }
+.technics-list_item:hover{
+	text-decoration: none;
+}
+
+
 
 /*<!-- <SPECIAL OFFER> -->
 */
@@ -796,6 +826,12 @@ overflow: hidden;
 	margin-right: 2px;
 	margin-top: 20px;
 }
+.download-catalog:hover{
+background-color: #46617a;
+}
+.download-catalog:active{
+background-color: #567999;
+}
 .technics-list_item-hover a{
 padding-top: 0;
 padding-left: 0;  
@@ -810,9 +846,7 @@ line-height: 35px;
 	/*font-weight: bold;*/
 }
 
-/*.strelka-space{
-	margin: 8px;
-}*/
+
 
 /*all-technics_cards*/
 .all-technics_cards{
@@ -821,6 +855,37 @@ line-height: 35px;
 background-size:cover;
 background-repeat: no-repeat;
 background-color: #f3f3f3;
+}
+
+.product-card_new:before{
+    width: 130px;
+    height: 34px;
+    background: #00c22e;
+    right: -32px;
+    top: 5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.product-card_new:before{
+    display: inline-block;
+    content: '';
+    position: absolute;
+}
+.product-card_new:after{
+    content: 'new';
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    transform: rotate(45deg);
+    top: 16px;
+    right: 10px;
+}
+.product-card_new:after, .product-card_sale:before{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    display: inline-block;
+    position: absolute;
 }
 
 /*product-cards
@@ -877,6 +942,35 @@ background-color: #777;
 
 /*special-offers
 */
+.product-card_sale:before{
+    content: '';
+    width: 130px;
+    height: 34px;
+    background: #d12222;
+    right: -32px;
+    top: 5px;
+    transform: rotate(45deg);
+}
+.product-card_new:after, .product-card_sale:before{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    display: inline-block;
+    position: absolute;
+}
+
+.product-card_sale:after {
+    display: inline-block;
+    position: absolute;
+    content: 'sale';
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 16px;
+    right: 10px;
+}
 
 .special-off{
 	position: relative;
@@ -1296,18 +1390,3 @@ background-size: 35px 14px;
 background-repeat: repeat-x;
 }
 
-/*advantages*/
-.quarter { 
-float:left; 
-width:25%; 
-display: inline-block; 
-} 
-
-.quarter p{ 
-margin-top: 0; 
-margin-left: 50px; 
-} 
-
-.quarter img{ 
-float: left; 
-}
