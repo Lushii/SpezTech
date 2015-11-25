@@ -101,10 +101,7 @@ border: solid 2px #796e38;
   color: #000;	
 }
 
-.page-nav_item_a_current:nth-child(1){
-border: solid 2px transparent;
-border-radius: 2px; 	
-}
+
 
 .page-nav_item_call{
 padding: 10px 10px;
@@ -189,10 +186,7 @@ border: solid 2px #636d76;
  border: solid 2px #a6abb1;
   border-radius: 2px; 
 }
-.page-nav_item_foo_current:nth-child(1){
-border: solid 2px transparent;
-border-radius: 2px; 	
-}
+
 .page-nav_call:last-child{
   color: #ffcd34;
 
@@ -233,6 +227,7 @@ linear-gradient(135deg, #ffcd34 30%, #000 35%, #000 65%, #ffcd34 65%);
 background-size: 35px 14px;
 background-repeat: repeat-x;
 }
+
 /*ТЕКСТ В ПРОМО */
 /*вместе мы справимся
 */
@@ -368,6 +363,7 @@ background-color: #202e3b;
 	height: 180px;
 margin-top: 14px;
 }
+
 /*<!-- ADVANTAGES -->*/
 
 .advantages{
@@ -434,6 +430,7 @@ margin-left: 0;
 
 /*<!-- Вся техника и Спецпредложение -->	
 <!-- <ALL TECH MENU> -->*/
+
 .column-technics{
 	/*width: 239px;*/
 width: 25%;
@@ -449,6 +446,9 @@ display: block;
 position: relative;
 background-color: #f3f3f3;
 }
+
+/*all technics list MAIN
+*/
 
 .technics-title {
 padding-top: 41px;
@@ -467,20 +467,118 @@ padding-left: 0;
 padding-bottom: 50px;
 padding-right:50px;
 list-style-type:none; 
-color: #000;
+color: #353535;
 font-size: 15px;
 font-family: arial;
 line-height: 35px;
 
 }
-/*.technics-list_item {
-color: #000;
-}*/
-.technics-list_item{
-text-decoration: underline;	
+
+.technics-list_item a{
+	color: #353535;
+	text-decoration: underline;	
 }
-.technics-list_item:hover{
+
+.technics-list_item:hover a{
+	color: #353535;
 	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/*all-technics list CATALOG
+*/
+
+.catalog-technics_title {
+padding-top: 41px;
+padding-bottom: 38px;
+padding-left: 0px;
+padding-right: 0px;
+font-size: 20px;
+font-weight: bold;
+font-family: arial;
+
+}
+.catalog-technics_list{
+	
+text-decoration: none;
+padding-top: 0;
+padding-left: 0;  
+padding-bottom: 50px;
+padding-right:50px;
+list-style-type:none; 
+color: #353535;
+font-size: 15px;
+font-family: arial;
+line-height: 35px;
+
+}
+
+.catalog-technics_item a{
+	color: #353535;
+	text-decoration: underline;	
+	font-size: 15px;
+
+}
+
+.catalog-technics_item:hover a{
+	color: #353535;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	list-style-type: none;
+}
+
+.catalog-technics_item:before a{
+position: relative;
+content: "";
+height: 10px;
+width: 10px;
+background-position: cover;
+background: #f3f3f3;
+top: 0px;
+left: -11px;	
+}
+
+.catalog-technics_item:hover:before a{
+	position: absolute;
+content: ">";
+height: 10px;
+width: 10px;
+background-position: cover;
+background: #f3f3f3;
+top: 20px;
+bottom: 20px;
+}
+
+
+
+/*button*/
+.technics-list_item-download{
+	margin-top: 30px;
+}
+
+.download-catalog{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	background-color: #354b60;
+	border-radius: 0;
+	display: inline;
+	padding: 15px;
+	
+}
+
+.wrap-download{
+	padding: 35px;
+}
+
+.download-catalog:hover{
+background-color: #46617a;
+}
+.download-catalog:active{
+background-color: #567999;
 }
 
 
@@ -811,87 +909,85 @@ overflow: hidden;
 
 }
 
-/*all-technics list
-*/
-.technics-list_item a{
-	color: #000;
-	text-decoration: underline;	
 
-}
-.download-catalog{
-	color: #fff;
-	font-size: 14px;
-	text-decoration: none;
-	background-color: #354b60;
-	border-radius: 0;
-	display: inline-block;
-	padding: 4px;
-	padding-right: 10px;
-	margin-left: 2px;
-	margin-right: 2px;
-	margin-top: 20px;
-}
-.download-catalog:hover{
-background-color: #46617a;
-}
-.download-catalog:active{
-background-color: #567999;
-}
-.technics-list_item-hover a{
-padding-top: 0;
-padding-left: 0;  
-padding-bottom: 50px;
-padding-right:40px;
-list-style-type: none; 
-font-size: 15px;
-font-family: arial;
-line-height: 35px;
-	text-decoration: none;
-	color: #000;
-	/*font-weight: bold;*/
-}
 
 
 
 /*all-technics_cards*/
 .all-technics_cards{
 	position: relative;
--webkit-background-size:cover;
 background-size:cover;
 background-repeat: no-repeat;
 background-color: #f3f3f3;
 }
 
+.product-card{
+position: relative;
+overflow: hidden;
+}
+
 .product-card_new:before{
+	display: inline-block;
+    content: '';
+	position: absolute;
     width: 130px;
     height: 34px;
     background: #00c22e;
     right: -32px;
-    top: 5px;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
+    top: 7px;
     transform: rotate(45deg);
+    overflow: hidden;
 }
-.product-card_new:before{
-    display: inline-block;
-    content: '';
-    position: absolute;
-}
+
 .product-card_new:after{
     content: 'new';
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    transform: rotate(45deg);
+    top: 18px;
+    right: 10px;
+}
+
+/*.product-card_new:after, 
+.product-card_sale:before{
+
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    display: inline-block;
+    position: absolute;
+}
+*/
+.product-card_sale:before{
+display: inline-block;
+    content: '';
+	position: absolute;
+    width: 130px;
+    height: 34px;
+    background: #d12222;
+    right: -32px;
+    top: 7px;
+    transform: rotate(45deg);
+    overflow: hidden;	
+}
+.product-card_sale:after{
+    content: 'sale';
+    display: inline-block;
+    position: absolute;
+    text-transform: uppercase;
+    width: 130px;
+    height: 34px;
+    right: -30px;
+    top: 15px;
     color: #fff;
     font-weight: 700;
     font-size: 18px;
     transform: rotate(45deg);
-    top: 16px;
-    right: 10px;
 }
-.product-card_new:after, .product-card_sale:before{
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    display: inline-block;
-    position: absolute;
-}
+
 
 /*product-cards
 */
@@ -963,24 +1059,7 @@ background-color: #567999;
 
 /*special-offers
 */
-.product-card_sale:before{
-    content: 'sale';
-    width: 130px;
-    height: 34px;
-    background: #d12222;
-    right: 0px;
-    top: 0px;
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    transform: rotate(45deg);
-}
-.product-card_new:after, .product-card_sale:before{
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    display: inline-block;
-    position: absolute;
-}
+
 
 /*.product-card_sale:after {
     display: inline-block;
@@ -1026,7 +1105,6 @@ margin-bottom: 30px;
 .numbering{
 	display: inline;
 	margin: 2px;
-    border: solid 2px transparent;
 }
 
 .button-numbering{
@@ -1036,20 +1114,16 @@ padding: 4px 4px;
 	font-size: 15px;
 	font-weight: normal;
 }
-.button-numbering:first-child{
-color: #fff;
-}
-.numbering:first-child{
-	background-color: #354b60;
-}
+
 
 .numbering:hover{
 color: #fff;
-border: solid 2px #9aa5af;
+background-color: #354b60;
+border-radius: 2px;
+
 }
 .numbering:active{
 color: #fff;
-border: solid 2px #354b60; 
 }
 
 
@@ -1075,14 +1149,15 @@ linear-gradient(135deg, #ffcd34 30%, #000 35%, #000 65%, #ffcd34 65%);
 background-size: 35px 14px;
 background-repeat: repeat-x;}
 }
-.consultation-title {
+.consultation-title{
 color: #ffcd34;
 font-size: 25px;
 font-weight: normal;
 font-family: arial;
 padding-top: 38px;
-margin-right: 15px;
+margin: 30px 15px;
 }
+
 .need-cons_a{
 color: #fff;
 font-size: 15px;
@@ -1145,6 +1220,7 @@ font-size: 15px;
 width: 300px;
 height: 39px;
 }
+
 .input_number{
 width: 300px;
 height: 39px;
@@ -1160,13 +1236,21 @@ height: 39px;
 	display: inline-block;
 	float: left;
 text-decoration: none;
-	padding: 16px 56px 16px 56px;
+	padding: 16px 56px 16px 62px;
 	font-size: 15px;
 	font-family: arial;
 	font-weight: bold;
 	margin-top: 10px;
-margin-left: 5;
+
+
+border: none;
 }
+
+input, textarea, .input-button {
+	outline: none;
+}
+
+
 /*feedback
 */
 .crew{
@@ -1324,13 +1408,16 @@ margin-top:10px;
 
 /*cards portfolio-cart
 */
+
+.portfolio_item{
+	display: inline-block;
+	padding: 40px;
+}
 .portfolio-cart{
 	background-color: #fff;
 	text-align: left;
 	width: 322px;
 	height: 245px;
-	margin-top: 10px;
-	margin-right: 777px;
 	padding: 26px 26px 0px 26px;
 
 }
@@ -1366,6 +1453,7 @@ color: #202e3b;
 
 /*back call form
 */
+.
 .consult-title{
 display: block;
 color: #fff;
