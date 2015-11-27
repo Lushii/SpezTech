@@ -86,11 +86,13 @@ text-align: center;
  border: solid 2px  transparent;
   border-radius: 2px;
 }
+
 .page-nav_item_a:hover{
  border: solid 2px #bc9d36;
   border-radius: 2px; 
   color: #000;
 }
+
 .page-nav_item_a:active{
 border: solid 2px #796e38;
   border-radius: 2px; 
@@ -281,8 +283,7 @@ border: 2px solid  #ffe390;
 
 .consult-title{
 display: block;
-color: #fff;
-	font-size: 18px;
+font-size: 18px;
 	font-family: arial;
 	font-weight: 600;
 	padding-top: 45px;
@@ -331,7 +332,6 @@ color: #fff;
 cursor: text;
 outline: none;
 display: inline-block;
-float: left;
 margin: 25px 0px 35px 0px;
 }
 
@@ -368,7 +368,7 @@ margin-top: 14px;
 }
 .adv-item div{
 	width: 230px;
-	display: inline-block;
+	
 	background-color: #fff;
 	margin-right: 0px;
 	margin-left: 0px;
@@ -446,10 +446,7 @@ background-color: #f3f3f3;
 */
 
 .technics-title {
-padding-top: 41px;
-padding-bottom: 38px;
-padding-left: 0px;
-padding-right: 0px;
+padding: 38px 38px 41px 0;
 font-size: 20px;
 font-weight: bold;
 font-family: arial;
@@ -457,10 +454,7 @@ font-family: arial;
 }
 .technics-list {
 text-decoration: none;
-padding-top: 0;
-padding-left: 0;  
-padding-bottom: 50px;
-padding-right:50px;
+
 list-style-type:none; 
 color: #353535;
 font-size: 15px;
@@ -686,7 +680,6 @@ float: left;
 }
 .numbers-title{
 	font-weight: normal;
-	margin-top: ;
 	color: #fff;
 	font-size: 20px;
 	font-family: arial;
@@ -697,7 +690,7 @@ float: left;
 	font-weight: bold;
 	margin: 0 0 12px 0;
 	padding: 0; 
-	vertical-align: top;
+	
 	
 }
 .number-item_title{
