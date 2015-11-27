@@ -1,9 +1,5 @@
 *{margin: 0;
 padding: 0;}
-html { 
-
-
-} 
 
 body { 
 min-width: 1200px;
@@ -148,8 +144,7 @@ footer{
 }
 
 
-
-span.page-footer_logo-text{
+.page-footer_logo-text{
 	
 	color: #ffcd34;
 	
@@ -1193,10 +1188,6 @@ font-size: 15px;
 	margin: 5px;
 }
 
-.input-text{
-	margin: 5px;
-}
-
 .input_name{
 width: 300px;
 height: 39px;
@@ -1222,8 +1213,6 @@ text-decoration: none;
 	font-family: arial;
 	font-weight: bold;
 	margin-top: 10px;
-
-
 border: none;
 }
 
@@ -1443,10 +1432,10 @@ color: #202e3b;
 
 /*back call form
 */
-.
+
 .consult-title{
 display: block;
-color: #fff;
+
 	font-size: 18px;
 	font-family: arial;
 	font-weight: 600;
