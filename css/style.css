@@ -909,10 +909,6 @@ overflow: hidden;
 
 }
 
-
-
-
-
 /*all-technics_cards*/
 .all-technics_cards{
 	position: relative;
@@ -952,15 +948,6 @@ overflow: hidden;
     right: 10px;
 }
 
-/*.product-card_new:after, 
-.product-card_sale:before{
-
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    display: inline-block;
-    position: absolute;
-}
-*/
 .product-card_sale:before{
 display: inline-block;
     content: '';
@@ -1026,6 +1013,10 @@ margin-bottom: 25px;
 
 /*buttons
 */
+.button-group{
+font-family: arial;
+}
+
 a.button{text-decoration: none;
  display: inline-block;
  color: #fff;
@@ -1037,6 +1028,7 @@ a.button{text-decoration: none;
 
 a.button.button-light{
 background-color: #f3c331;
+
 }
 a.button-light:hover{
 background-color: #ffd966;
@@ -1056,25 +1048,6 @@ background-color: #567999;
 }
 
 
-
-/*special-offers
-*/
-
-
-/*.product-card_sale:after {
-    display: inline-block;
-    position: absolute;
-    content: 'sale';
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
-    top: 0px;
-    right: 0px;
-}
-*/
 .special-off{
 	position: relative;
 min-height: 540px;
@@ -1149,7 +1122,9 @@ linear-gradient(135deg, #ffcd34 30%, #000 35%, #000 65%, #ffcd34 65%);
 background-size: 35px 14px;
 background-repeat: repeat-x;}
 }
-.consultation-title{
+
+.consultation-title h2{
+	display: inline-block;
 color: #ffcd34;
 font-size: 25px;
 font-weight: normal;
@@ -1172,6 +1147,7 @@ background-color: #f3f3f3;
 /*map*/
 .column-map{
 width: 619px;
+height: 480px;
 margin: 40px 10px 52px 10px; 
 }
 /*form
@@ -1216,6 +1192,11 @@ font-size: 15px;
 .input{
 	margin: 5px;
 }
+
+.input-text{
+	margin: 5px;
+}
+
 .input_name{
 width: 300px;
 height: 39px;
@@ -1254,30 +1235,38 @@ input, textarea, .input-button {
 /*feedback
 */
 .crew{
-	height: 426px;
+	height: 446px;
 
 }
-
+.crew-container{
+	position: relative;
+	
+}
 .crew-title{
+	text-align: left;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: arial;
-	margin-top: 33px;
+	margin-bottom: 40px;
 	color: #202e3b;
-	opacity: 0.8;
-
+	position: absolute;
+	top: 20px;
 }
+
 .crew-txt{
 	font-size: 13px;
 	font-weight: normal;
 	font-family: arial;
 	font-style: italic;
 	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 18px;
 	line-height: 18px;
 color: #202e3b;	
-opacity: 0.8;
+margin-bottom: 20px;
+
+}
+
+.crew-img{
+margin-bottom: 20px;
 }
 
 .crew-cite{
@@ -1289,7 +1278,8 @@ font-size: 12px;
 	margin-top: 18px;
 	font-style: normal;
 	color: #202e3b;
-	opacity: 0.8;	
+
+		
 }
 .column-crew{
 	width: 235px;	
