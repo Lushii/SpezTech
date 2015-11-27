@@ -446,7 +446,7 @@ background-color: #f3f3f3;
 */
 
 .technics-title {
-padding: 38px 38px 41px 0;
+padding: 41px 0 38px 0;
 font-size: 20px;
 font-weight: bold;
 font-family: arial;
@@ -454,7 +454,7 @@ font-family: arial;
 }
 .technics-list {
 text-decoration: none;
-
+padding: 0 50px 50px 0;
 list-style-type:none; 
 color: #353535;
 font-size: 15px;
@@ -480,10 +480,7 @@ line-height: 35px;
 */
 
 .catalog-technics_title {
-padding-top: 41px;
-padding-bottom: 38px;
-padding-left: 0px;
-padding-right: 0px;
+padding: 41px 0 38px 0;
 font-size: 20px;
 font-weight: bold;
 font-family: arial;
@@ -492,10 +489,7 @@ font-family: arial;
 .catalog-technics_list{
 	
 text-decoration: none;
-padding-top: 0;
-padding-left: 0;  
-padding-bottom: 50px;
-padding-right:50px;
+padding: 0 50px 50px 0;
 list-style-type:none; 
 color: #353535;
 font-size: 15px;
@@ -580,10 +574,7 @@ background-color: #567999;
 .offer_title{
 position: relative;
 text-align: left;
-padding-top: 40px;
-padding-bottom: 41px;
-padding-left:0px;
-padding-right: 100;
+padding: 40px 100px 41px 0;
 font-size: 20px;
 font-weight: bold;
 font-family: arial;
